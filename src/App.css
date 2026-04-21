@@ -18,6 +18,7 @@ li{
 
 .room {
   border: 2px solid orange;
+  min-width: 35%;
 }
  .clickable{
   background-color: var(--accent-border);

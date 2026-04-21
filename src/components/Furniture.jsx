@@ -16,10 +16,10 @@ export function Nightstand() {
     return (
         <div className={!show ? "clickable" : ""} onClick={() => setShow(!show)}>
             <h3>Nightstand</h3>
-            {show && <>
-            <h4>Snow Crash, by Neal Stephenson</h4>
-            <h4>An unplugged USB-C Cable</h4>
-            </>}
+            {show && <ul>
+            <li>Snow Crash, by Neal Stephenson</li>
+            <li>An unplugged USB-C Cable</li>
+            </ul>}
         </div>
     )
 }
